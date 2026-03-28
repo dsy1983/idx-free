@@ -14,8 +14,8 @@ export NEZHA_PORT=""            # v1 哪吒不要填写这个。v0 哪吒 agent 
 export NEZHA_KEY=""             # v1 哪吒的 NZ_CLIENT_SECRET 或 v0 哪吒 agent 密钥
 
 # --- Argo 隧道配置 ---
-export ARGO_DOMAIN="idx2.jiao.qzz.io"           # Argo 域名，留空即启用临时隧道
-export ARGO_AUTH="eyJhIjoiMzg4OWViZTEzMzY4MThiYzA0YzM1Y2Y5OTQxZjczNDUiLCJ0IjoiZjM5MWZmY2YtYTI4OS00ZWFmLTgzYTItYzg3ZGUzY2FlZTI5IiwicyI6IllXVmpPRE0xWkRBdFpUTXhNQzAwT1RRNExUazJOakF0TWpBMVltTXdZVFk1T0RNMyJ9"             # Argo Token 或 json，留空即启用临时隧道
+export ARGO_DOMAIN="idx-us.jiao.qzz.io"           # Argo 域名，留空即启用临时隧道
+export ARGO_AUTH="eyJhIjoiMzg4OWViZTEzMzY4MThiYzA0YzM1Y2Y5OTQxZjczNDUiLCJ0IjoiZTU5NWQxNWQtZjg0ZS00NjY2LThiN2YtZmJiM2FjNzE4M2I3IiwicyI6Ik9EaG1ZakZsTldFdE1XVmtZaTAwWkRSbUxXRXhOVGt0T0RsaE0yTTVabUkwWkRReCJ9"             # Argo Token 或 json，留空即启用临时隧道
 
 # --- 其他配置 ---
 export NAME="idx"               # 节点名称
@@ -23,7 +23,7 @@ export CFIP="cf.877774.xyz" # 优选 IP 或优选域名
 export CFPORT=443               # 优选 IP 或优选域名对应端口
 export CHAT_ID=""               # Telegram Chat ID
 export BOT_TOKEN=""             # Telegram Bot Token。需要同时填写 Chat ID 才会推送节点到 Telegram
-export UPLOAD_URL=https://jj.sylj.dpdns.org/jiao              # 节点自动推送到订阅器，需要填写部署 merge-sub 项目后的首页地址，例如：https://merge.eooce.ggff.net
+export UPLOAD_URL=              # 节点自动推送到订阅器，需要填写部署 merge-sub 项目后的首页地址，例如：https://merge.eooce.ggff.net
 
 # --- 执行主部署脚本 ---
 # 这会下载并执行远程的 sb.sh 脚本，并使用上面设置的环境变量
